@@ -214,7 +214,7 @@ export default {
 					port: +port
 				};
 			})() : null;
-			const PROXY_IP = proxyParam ? String(proxyParam) : '3.112.21.102';
+			const PROXY_IP = proxyParam ? String(proxyParam) : 'proxyip.cmliussss.net';
 
 			// auto模式参数顺序（按URL参数位置）
 			const getOrder = () => {
